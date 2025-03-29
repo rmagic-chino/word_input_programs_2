@@ -1,9 +1,9 @@
 #input
-string = input("Enter a string: ")
+text = input("Enter a string: ")
 
 #enter rules
-while string and string[0] == ' ':
-    string = string[1:]
+while text and text[0] == ' ':
+    text = text[1:]
 
 #print output
-print("Output: ", string)
+print("Output: ", text)
